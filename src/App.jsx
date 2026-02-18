@@ -17,7 +17,7 @@ function App() {
     
     const observerOptions = {
       root: null,
-      rootMargin: '-150px 0px -70% 0px', // Adjusts when the link highlights
+      rootMargin: '-150px 0px -70% 0px',
       threshold: 0
     };
 
@@ -41,7 +41,7 @@ function App() {
 
   return (
     <div className="bg-white min-h-screen">
-      <div className="sticky top-0 z-50 h-16 bg-white border-b"> 
+      <div className="sticky top-0 z-50 bg-white w-full"> 
         <GoogleWorkspaceNavbar />
       </div>
 
